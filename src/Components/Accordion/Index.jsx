@@ -27,7 +27,7 @@ const Index = () => {
 
     return (
         <>
-            <section className="" >
+            <section className="p-0 m-0 h-lvh bg-amber-300" >
                 <div className="w-2/3 mx-auto my-2">
                     <div className="text-center">
                         <button type="button" className="rounded bg-blue-800 text-white p-2 my-3" onClick={()=>handleEnableMultiSelect()}>Enable Multi Select</button>
