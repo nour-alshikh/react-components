@@ -1,0 +1,42 @@
+
+{[...Array(starCount)].map((_, ind) => {};
+
+#############################################################################################
+
+    const handleCopy =  async () => {
+        try {
+            await navigator.clipboard.writeText(color);
+            setShowMessage(true)
+
+            // Clear any existing timeout to avoid memory leaks
+            if (timeoutRef.current) {
+                clearTimeout(timeoutRef.current);
+            }
+
+            timeoutRef.current = setTimeout(() => {
+                setShowMessage(false);
+            }, 500);
+        } catch (error) {
+            console.error('Unable to copy to clipboard:', error);
+        }
+    }
+
+    useEffect(() => {
+        return () => {
+            if (timeoutRef.current) {
+                clearTimeout(timeoutRef.current);
+            }
+        };
+    }, []);
+
+
+#############################################################################################
+     e.stopPropagation();
+
+         function randomColor(length) {
+             return Math.floor(Math.random() * length);
+         }
+
+#############################################################################################
+           let multiSelectedCpy = [...multipleSelected];
+                 multiSelectedCpy.indexOf(id) === -1 ? multiSelectedCpy.push(id) : multiSelectedCpy.splice(multiSelectedCpy.indexOf(id) , 1);
