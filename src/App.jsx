@@ -5,6 +5,7 @@ import ImageSlider from "./Components/ImageSlider/index.jsx";
 import LoadMoreData from "./Components/LoadMoreData/index.jsx";
 import TreeView from "./Components/TreeView/index.jsx";
 import QRCode from "./Components/QRCode/index.jsx";
+import Theme from "./Components/Theme/index.jsx";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/*  <ImageSlider url={"https://picsum.photos/v2/list?page=1&limit=10"} />*/}
       {/*  <LoadMoreData />*/}
       {/*  <TreeView />*/}
-    <QRCode />
+    {/*<QRCode />*/}
+   <Theme />
     </>
 
   )

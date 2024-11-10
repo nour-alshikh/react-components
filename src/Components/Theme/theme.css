@@ -1,0 +1,32 @@
+:root{
+    --background: #fff;
+    --text: #000;
+
+    --btn-background: #000;
+    --btn-border: #000;
+    --btn-text: #fff;
+}
+
+[data-theme="dark"] {
+    --background: #000;
+    --text: #fff;
+
+    --btn-background: #fff;
+    --btn-border: #fff;
+    --btn-text: #000;
+}
+
+.hero{
+    transition: 0.5s all;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+p{
+    color: var(--text);
+}
+
+.btn{
+    color: var(--btn-text);
+    background-color: var(--btn-background);
+}
