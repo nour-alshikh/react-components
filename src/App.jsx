@@ -7,6 +7,7 @@ import TreeView from "./Components/TreeView/index.jsx";
 import QRCode from "./Components/QRCode/index.jsx";
 import Theme from "./Components/Theme/index.jsx";
 import ScrollIndicator from "./Components/ScrollIndicator/index.jsx";
+import CustomTabs from "./Components/CustomTabs/index.jsx";
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/*  <TreeView />*/}
         {/*<QRCode />*/}
         {/*<Theme />*/}
-        <ScrollIndicator />
+        {/*<ScrollIndicator />*/}
+        <CustomTabs />
     </>
 
   )
