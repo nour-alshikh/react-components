@@ -9,6 +9,7 @@ import Theme from "./Components/Theme/index.jsx";
 import ScrollIndicator from "./Components/ScrollIndicator/index.jsx";
 import CustomTabs from "./Components/CustomTabs/index.jsx";
 import Modal from "./Components/Modal/index.jsx";
+import GithubApi from "./Components/GithubApi/index.jsx";
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
         {/*<Theme />*/}
         {/*<ScrollIndicator />*/}
         {/*<CustomTabs />*/}
-        <Modal />
+        {/*<Modal />*/}
+        <GithubApi />
     </>
 
   )
