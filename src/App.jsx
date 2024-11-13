@@ -8,6 +8,7 @@ import QRCode from "./Components/QRCode/index.jsx";
 import Theme from "./Components/Theme/index.jsx";
 import ScrollIndicator from "./Components/ScrollIndicator/index.jsx";
 import CustomTabs from "./Components/CustomTabs/index.jsx";
+import Modal from "./Components/Modal/index.jsx";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         {/*<QRCode />*/}
         {/*<Theme />*/}
         {/*<ScrollIndicator />*/}
-        <CustomTabs />
+        {/*<CustomTabs />*/}
+        <Modal />
     </>
 
   )
