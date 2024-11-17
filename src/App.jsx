@@ -10,6 +10,7 @@ import ScrollIndicator from "./Components/ScrollIndicator/index.jsx";
 import CustomTabs from "./Components/CustomTabs/index.jsx";
 import Modal from "./Components/Modal/index.jsx";
 import GithubApi from "./Components/GithubApi/index.jsx";
+import SearchAutoComplete from "./Components/SearchAutoComplete/index.jsx";
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
         {/*<ScrollIndicator />*/}
         {/*<CustomTabs />*/}
         {/*<Modal />*/}
-        <GithubApi />
+        {/*<GithubApi />*/}
+    <SearchAutoComplete />
     </>
 
   )
