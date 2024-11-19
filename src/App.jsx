@@ -1,4 +1,4 @@
-import Accordion from "./Components/Accordion"
+import Accordion from "./Components/Accordion/index.jsx"
 import RandomColor from "./Components/RandomColor/index.jsx";
 import StarRating from "./Components/StarRating/index.jsx";
 import ImageSlider from "./Components/ImageSlider/index.jsx";
@@ -11,6 +11,8 @@ import CustomTabs from "./Components/CustomTabs/index.jsx";
 import Modal from "./Components/Modal/index.jsx";
 import GithubApi from "./Components/GithubApi/index.jsx";
 import SearchAutoComplete from "./Components/SearchAutoComplete/index.jsx";
+import FeaturesToRender from "./Components/FeaturesToRender/index.jsx";
+import FeaturesProvider from "./Components/FeaturesToRender/Context/Index.jsx";
 
 
 function App() {
@@ -29,7 +31,10 @@ function App() {
         {/*<CustomTabs />*/}
         {/*<Modal />*/}
         {/*<GithubApi />*/}
-    <SearchAutoComplete />
+    {/*{<SearchAutoComplete />*/}
+      <FeaturesProvider>
+        <FeaturesToRender />
+      </FeaturesProvider>
     </>
 
   )
