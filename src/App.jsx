@@ -15,6 +15,7 @@ import FeaturesToRender from "./Components/FeaturesToRender/index.jsx";
 import FeaturesProvider from "./Components/FeaturesToRender/Context/Index.jsx";
 import UseFetchHook from "./Components/UseFetchHook/Index.jsx";
 import UseOnClickOutside from "./Components/UseOnClickOutsideHook";
+import UseWindowResize from "./Components/UseWindowResize";
 
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
     {/*  </FeaturesProvider>*/}
 
         {/*<UseFetchHook />*/}
-    <UseOnClickOutside />
+    {/*<UseOnClickOutside />*/}
+    <UseWindowResize />
     </>
 
   )
