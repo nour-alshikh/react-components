@@ -13,6 +13,7 @@ import GithubApi from "./Components/GithubApi/index.jsx";
 import SearchAutoComplete from "./Components/SearchAutoComplete/index.jsx";
 import FeaturesToRender from "./Components/FeaturesToRender/index.jsx";
 import FeaturesProvider from "./Components/FeaturesToRender/Context/Index.jsx";
+import UseFetchHook from "./Components/UseFetchHook/Index.jsx";
 
 
 function App() {
@@ -32,9 +33,11 @@ function App() {
         {/*<Modal />*/}
         {/*<GithubApi />*/}
     {/*{<SearchAutoComplete />*/}
-      <FeaturesProvider>
-        <FeaturesToRender />
-      </FeaturesProvider>
+    {/*  <FeaturesProvider>*/}
+    {/*    <FeaturesToRender />*/}
+    {/*  </FeaturesProvider>*/}
+
+        <UseFetchHook />
     </>
 
   )
